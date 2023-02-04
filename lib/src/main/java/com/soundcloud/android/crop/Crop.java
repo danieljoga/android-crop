@@ -51,7 +51,7 @@ public class Crop {
      * Set fixed aspect ratio for crop area
      *
      * @param x Aspect X
-     * @param y Aspect Y
+     * @param y Aspect Y1
      */
     public Crop withAspect(int x, int y) {
         cropIntent.putExtra(Extra.ASPECT_X, x);
